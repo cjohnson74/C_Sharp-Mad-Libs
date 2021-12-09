@@ -48,6 +48,10 @@ namespace C_SharpMadLibs
             Console.WriteLine($"Give me a hero-related verb (present tense)");
             save = Console.ReadLine();
 
+            // Getting the unplugged variable
+            Console.WriteLine($"Now give me a verb that makes you think about relief (past tense)");
+            unplugged = Console.ReadLine();
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
