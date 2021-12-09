@@ -61,6 +61,10 @@ namespace C_SharpMadLibs
                 adj[i] = Console.ReadLine();
             }
 
+            // Getting the fight variable
+            Console.WriteLine($"& a verb:");
+            fight = Console.ReadLine();
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
