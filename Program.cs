@@ -7,7 +7,7 @@ namespace C_SharpMadLibs
         public static void Main(string[] args)
         {
             // Init Variables
-            string theMatrix, system, neo, enemy, inside, save, unplugged, fight;
+            string theMatrix, system, neo, enemy = "", inside = "", save = "", unplugged = "", fight = "";
             string[] profession = new string[4], adj = new string[2];
 
             // Get Input from User
@@ -24,6 +24,12 @@ namespace C_SharpMadLibs
             Console.WriteLine($"Okay well first, tell me what you aleady know about {theMatrix}");
             Console.WriteLine($"What noun would you categorize {theMatrix} as:");
             system = Console.ReadLine();
+
+            Console.WriteLine($"Give me an opposing noun to {system}");
+            enemy = Console.ReadLine();
+
+            Console.WriteLine($"Now give me any relaxing noun (present tense)");
+            inside = Console.ReadLine();
 
             // Init Story
             string madlibsStory =
