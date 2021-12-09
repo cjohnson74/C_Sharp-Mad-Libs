@@ -16,6 +16,10 @@ namespace C_SharpMadLibs
             Console.WriteLine("Please share with me your name!");
             neo = Console.ReadLine();
 
+            Console.WriteLine($"Hello {neo}! Are you ready? What is something you " +
+                $"want to know more about?");
+            theMatrix = Console.ReadLine();
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
