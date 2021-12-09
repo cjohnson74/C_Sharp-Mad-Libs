@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Sharp-Mad-Libs", "C_Sharp-Mad-Libs.csproj", "{439F2D69-CD8B-4E3C-9525-27E1D9145A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439F2D69-CD8B-4E3C-9525-27E1D9145A4D}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{439F2D69-CD8B-4E3C-9525-27E1D9145A4D}.Debug|anycpu.Build.0 = Debug|anycpu
+		{439F2D69-CD8B-4E3C-9525-27E1D9145A4D}.Release|anycpu.ActiveCfg = Release|anycpu
+		{439F2D69-CD8B-4E3C-9525-27E1D9145A4D}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DAC0FA0-EC57-457A-B9FC-439139993F30}
+	EndGlobalSection
+EndGlobal
