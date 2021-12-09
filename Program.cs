@@ -36,7 +36,7 @@ namespace C_SharpMadLibs
             inside = Console.ReadLine();
 
             // Getting all professions from user
-            Console.WriteLine("Okay, now I need 4 professions relating to {system}");
+            Console.WriteLine($"Okay, now I need 4 professions relating to {system}");
 
             for (int i = 0; i < profession.Length; i++)
             {
