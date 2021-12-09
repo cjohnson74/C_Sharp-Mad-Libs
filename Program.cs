@@ -16,21 +16,26 @@ namespace C_SharpMadLibs
             Console.WriteLine("Please share with me your name!");
             neo = Console.ReadLine();
 
+            // Getting the matrix variable form user
             Console.WriteLine($"Hello {neo}! Are you ready? What is something you " +
                 $"want to know more about?");
             theMatrix = Console.ReadLine();
 
+            // Getting system variable from user
             Console.WriteLine($"Ooooh! You want to know more about {theMatrix} huh?");
             Console.WriteLine($"Okay well first, tell me what you aleady know about {theMatrix}");
             Console.WriteLine($"What noun would you categorize {theMatrix} as:");
             system = Console.ReadLine();
 
+            // Getting enemy variable from user
             Console.WriteLine($"Give me an opposing noun to {system}");
             enemy = Console.ReadLine();
 
+            // Getting inside variable from user
             Console.WriteLine($"Now give me any relaxing noun (present tense)");
             inside = Console.ReadLine();
 
+            // Getting all professions from user
             Console.WriteLine("Okay, now I need 4 professions relating to {system}");
 
             for (int i = 0; i < profession.Length; i++)
