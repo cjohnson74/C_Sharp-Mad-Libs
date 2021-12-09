@@ -32,7 +32,7 @@ namespace C_SharpMadLibs
             enemy = Console.ReadLine();
 
             // Getting inside variable from user
-            Console.WriteLine($"Now give me any relaxing noun (present tense)");
+            Console.WriteLine($"Now give me any relaxing verb (present tense)");
             inside = Console.ReadLine();
 
             // Getting all professions from user
@@ -45,7 +45,7 @@ namespace C_SharpMadLibs
             }
 
             // Getting the save variable
-            Console.WriteLine($"Give me a hero-related verb (present tense)");
+            Console.WriteLine($"Give me a helo-related verb (present tense)");
             save = Console.ReadLine();
 
             // Getting the unplugged variable
