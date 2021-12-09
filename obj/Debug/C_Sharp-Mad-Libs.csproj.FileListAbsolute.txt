@@ -1,0 +1,6 @@
+/Users/carsonjohnson/Documents/CSharp/C_Sharp-Mad-Libs/obj/Debug/C_Sharp-Mad-Libs.csproj.AssemblyReference.cache
+/Users/carsonjohnson/Documents/CSharp/C_Sharp-Mad-Libs/obj/Debug/C_Sharp-Mad-Libs.csproj.CoreCompileInputs.cache
+/Users/carsonjohnson/Documents/CSharp/C_Sharp-Mad-Libs/bin/Debug/C_Sharp-Mad-Libs.exe
+/Users/carsonjohnson/Documents/CSharp/C_Sharp-Mad-Libs/bin/Debug/C_Sharp-Mad-Libs.pdb
+/Users/carsonjohnson/Documents/CSharp/C_Sharp-Mad-Libs/obj/Debug/C_Sharp-Mad-Libs.exe
+/Users/carsonjohnson/Documents/CSharp/C_Sharp-Mad-Libs/obj/Debug/C_Sharp-Mad-Libs.pdb

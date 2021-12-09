@@ -16,8 +16,8 @@ namespace C_SharpMadLibs
             Console.WriteLine("Please share with me your name!");
             neo = Console.ReadLine();
 
-
-            String madlibsStory =
+            // Init Story
+            string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
             $"But when you're {inside}, you look around, what do you see? " +
             $"{profession[0]}, {profession[1]}, {profession[2]}, {profession[3]}. " +
@@ -27,10 +27,9 @@ namespace C_SharpMadLibs
             $"not ready to be {unplugged}. And many of them are so {adj[0]}, so " +
             $"hopelessly {adj[0]} on the {system}, that they will {fight} to protect it.";
 
-            // Init Story
-
             // Print Story
             Console.WriteLine(madlibsStory);
+            Console.ReadKey();
         }
     }
 }
