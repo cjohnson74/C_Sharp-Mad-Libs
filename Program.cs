@@ -20,6 +20,11 @@ namespace C_SharpMadLibs
                 $"want to know more about?");
             theMatrix = Console.ReadLine();
 
+            Console.WriteLine($"Ooooh! You want to know more about {theMatrix} huh?");
+            Console.WriteLine($"Okay well first, tell me what you aleady know about {theMatrix}");
+            Console.WriteLine($"What noun would you categorize {theMatrix} as:");
+            system = Console.ReadLine();
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
