@@ -44,6 +44,10 @@ namespace C_SharpMadLibs
                 profession[i] = Console.ReadLine();
             }
 
+            // Getting the save variable
+            Console.WriteLine($"Give me a hero-related verb (present tense)");
+            save = Console.ReadLine();
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
