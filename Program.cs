@@ -31,6 +31,14 @@ namespace C_SharpMadLibs
             Console.WriteLine($"Now give me any relaxing noun (present tense)");
             inside = Console.ReadLine();
 
+            Console.WriteLine("Okay, now I need 4 professions relating to {system}");
+
+            for (int i = 0; i < profession.Length; i++)
+            {
+                Console.WriteLine($"Profession (plural) {i + 1} / {profession.Length}");
+                profession[i] = Console.ReadLine();
+            }
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
