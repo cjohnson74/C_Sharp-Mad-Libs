@@ -52,6 +52,15 @@ namespace C_SharpMadLibs
             Console.WriteLine($"Now give me a verb that makes you think about relief (past tense)");
             unplugged = Console.ReadLine();
 
+            // Getting the adjectives
+            Console.WriteLine($"Lastly I need 2 dystopian adjectives");
+
+            for (int i = 0; i < adj.Length; i++)
+            {
+                Console.WriteLine($"Adjective {i + 1} / {adj.Length}:");
+                adj[i] = Console.ReadLine();
+            }
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
