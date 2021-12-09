@@ -7,9 +7,16 @@ namespace C_SharpMadLibs
         public static void Main(string[] args)
         {
             // Init Variables
-
+            string theMatrix, system, neo, enemy, inside, save, unplugged, fight;
+            string[] profession = new string[4], adj = new string[2];
 
             // Get Input from User
+            Console.WriteLine("Welcome user!");
+            Console.WriteLine("Let's Play a game of madlibs!");
+            Console.WriteLine("Please share with me your name!");
+            neo = Console.ReadLine();
+
+
             String madlibsStory =
             $"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
             $"But when you're {inside}, you look around, what do you see? " +
@@ -23,6 +30,7 @@ namespace C_SharpMadLibs
             // Init Story
 
             // Print Story
+            Console.WriteLine(madlibsStory);
         }
     }
 }
